@@ -51,8 +51,9 @@ ul {
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: none;
     font-size: 200px;
+    height: 500px;
     color: #ffffff; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
@@ -63,4 +64,5 @@ ul {
         background-position: center;
         background-size: cover;
         border: none;
+        margin-top: none;
         }
