@@ -1,6 +1,66 @@
-body{
-    background-color: #DD985C;
-}
-.carouselslide{
-    height: fit-content;
-}
+ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #645464;
+    height: 100px;
+  }
+  
+  li {
+    float: left;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+
+  li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    height: 50px;
+  }
+  
+  li a:hover {
+    background-color: #5A4979 ;
+  }
+  
+  .active {
+    background-color: #645464;
+  }
+
+  li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  .title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 200px;
+    color: #ffffff; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .imagefond {
+        background-image: url(https://www.lambre-bar.fr/s/cc_images/teaserbox_2456383951.JPG?t=1675261145);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: none;
+        }
