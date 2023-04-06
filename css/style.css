@@ -49,17 +49,6 @@ p{
 }
 
 
-.footer {
-  position:fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color:rgb(219, 84, 236);
-  color: black;
-  text-align: center;
-  font-family: 'Cinzel',serif;
-}
-
 .contactsflex{
   display: flex;
   justify-content: space-evenly;
